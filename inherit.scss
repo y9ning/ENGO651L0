@@ -1,0 +1,21 @@
+%message{
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border:1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.se1 {
+  @extend %message;
+  background-color: red;
+}
+.se2{
+  @extend %message;
+  background-color: blue;
+}
+.se3{
+  @extend %message;
+  background-color: green;
+}

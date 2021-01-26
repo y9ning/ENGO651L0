@@ -1,0 +1,22 @@
+.se3, .se2, .se1 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.se1 {
+  background-color: red;
+}
+
+.se2 {
+  background-color: blue;
+}
+
+.se3 {
+  background-color: green;
+}
+
+/*# sourceMappingURL=inherit.css.map */
