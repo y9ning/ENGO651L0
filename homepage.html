@@ -2,36 +2,37 @@
 <html>
     <head>
         <title>Homepage</title>
-        <style>
-          table {border: 2px solid black;
-          border-collapse: collapse;
-          }
-          th, td {border: 1px solid black
-          }
-
-        </style>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     </head>
     <body>
-      <h1>Welcomes to my Webpage</h1>
-      <ul>
-        <li>the first line</li>
-        <li>the second line</li>
-        <li>this is the unorder list</li>
-      </ul>
-      <image src = "cat.jfif">
-      <div id="table">
-        <table>
+      <h1>Welcome to My Webpage</h1>
+      <h2> ENGO645 Lab 0</h2>
+      <div>
+        <table class="navigation">
           <tr>
-              <th>attribute1</th>
-              <th>attribute2</th>
-              <th>attribute3</th>
-          </tr>
-          <tr>
-              <td>record1</td>
-              <td>record2</td>
-              <td>record3</td>
+            <td><a href="homepage.html">Homepage</td>
+            <td><a href="sports.html">Sports I Like</td>
+            <td><a href="presentation.html">My Presentation</td>
+            <td><a href="zodiac.html">The 12 Chinese Zodiac</td>
           </tr>
         </table>
       </div>
+      <div id="intro_text">
+          <p id="intro" class="content">
+            <br>
+            <br>
+            The homepage here briefly introduces what the other three webpages are about.
+            <br>
+            Webpage"Sports I Like" lsits several sports that I like;
+            <br>
+            "My presentation" is all about the paper "OSM: User-Geneated Street Maps" that I present on 25 Jan;
+            <br>
+            The last webpage "The 12 Chinese Zodiac" is about what the twelve zodiac animals are.
+          </p>
+      </div>
+      <button><a href="sports.html">
+        Move to the next page!
+      </button>
     </body>
 </html>

@@ -1,9 +1,14 @@
+h1,h2{
+  color: deepskyblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 h1 {
-    color: blue;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 40px;
     font-weight: bolder;
+}
+#intro {
+  color: blue;
+  top: 100px;
 }
 .content {
   color: black;
@@ -23,4 +28,26 @@ h1 {
   background-color: #7FFFD4;
   text-align: center;
   font-weight: bold;
+}
+.content::selection{
+  color: red;
+  background-color: yellow;
+}
+.content li::selection{
+  color: red;
+  background-color: yellow;
+}
+button {
+  width: 200px;
+  height: 50px;
+  font-size 24px;
+  background: lightgreen;
+  text-align: center;
+}
+button:hover {
+  background-color: lightgray;
+}
+.row > div{
+  pedding: 20px;
+  border: 2px solid black;
 }
